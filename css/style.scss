@@ -1,0 +1,345 @@
+$font-stack: "Inter";
+$font-style: "Open San";
+$primary-color: #CED4DA;
+$secondary-color: #FFFFFF;
+$general-color: #000000;
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    @media screen and (max-width: 640px){
+        // background: var(--Background-with-effect, rgba(245, 245, 220, 0.60));
+        backdrop-filter: blur(0px);
+        background-image: url("../img/Keyboard with small plant.png");
+    }
+    background-image: url("../img/Keyboard with small plant.png");
+    background-position: 20% 10% 30%;
+    opacity: 1.0;
+    .sign-in, .sign-up{
+        padding: 0;
+        margin: 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        @media screen and (max-width: 640px){
+            grid-template-columns: 1fr;
+        }
+        @media screen and (max-width: 1200px){
+            grid-template-columns: 1fr;
+        }
+        .welcome{
+            padding: 5.8rem 5rem;
+            background: var(--Background-with-effect, rgba(245, 245, 220, 0.60));
+            backdrop-filter: blur(10px);
+            @media screen and (max-width: 640px){
+                padding: 3.5rem 0 7.3rem 0;
+                // padding: 3.5rem 1rem 7.3rem 1rem;
+                box-shadow: 0 0 0 #ccc;
+                background:fixed;
+                // backdrop-filter: blur(10px);
+            }
+            text-align: center;
+            box-shadow: 0 0 15px #ccc;
+            // opacity: 0.6;
+            h1{
+                color: #333;
+                
+                /* H3 Desktop */
+                font-family: Work Sans;
+                font-size: 3rem;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                padding: 1rem;
+            }
+            p{
+                color: #333;
+                text-align: center;
+                
+                /* Mobile H5 */
+                font-family: Work Sans;
+                font-size: 1.5rem;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                padding: 1rem;
+            }
+            form{
+                display: grid;
+                grid-template-columns: 1fr;
+                padding: 1.5rem 3rem;                    
+                .form-input{
+                    display: flex;
+                    height: 3rem;
+                    padding: 0.5rem 1.5rem;
+                    align-items: center;
+                    gap: 14.5rem;
+                    flex-shrink: 0;
+                    border-radius: 0.5rem;
+                    border: 1.5px solid var(--Text-color, #333);
+                }
+                .form-input:last-of-type{
+                    margin: 2rem 0 1.5rem 0;
+                }
+                .form-option{
+                    display: flex;
+                    flex-flow: row;
+                    align-items: flex-start;
+                    @media screen and (max-width: 640px){
+                        display: flex;
+                        flex-flow: row wrap;
+                        align-items: flex-start;
+                    }
+                    .forgot-password{
+                        text-align: right;
+                        flex: 1;
+                        a{
+                            color: var(--Primary-color, #800080);
+
+                            /* Link */
+                            font-family: Work Sans;
+                            @media screen and (max-width: 640px){
+                                font-size: 1.3rem;
+                            }
+                            font-size: 1.5rem;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            text-decoration-line: underline;
+                            color: #800080;
+
+                        }
+                    }
+                    .remember-me{
+                        flex: 1;
+                        align-items: flex-end;
+                        text-align: left;
+                        span{
+                            color: var(--Text-color, #333);
+
+                            /* H6 Destop */
+                            font-family: Work Sans;
+                            font-size: 1.5rem;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                        @media screen and (max-width: 640px){
+                            span{
+                                color: var(--Text-color, #333);
+    
+                                /* H6 Destop */
+                                font-family: Work Sans;
+                                font-size: 1.3rem;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            input{
+                                height: 26px;
+                                width: 26px;
+                            }
+                        }
+                        input{
+                            height: 16px;
+                            width: 20px;
+                        }
+                    }
+                }
+                    .btn-signin{
+                        display: flex;
+                        width: 40%;
+                        @media screen and (max-width: 640px){
+                            width: 100%;
+                        }
+                        height: 3rem;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 0.5rem;
+                        flex-shrink: 0;
+                        border-radius: 0.5rem;
+                        border: #800080;
+                        background: var(--Primary-color, #800080);
+                        color: var(--White, #FFF);
+                        font-family: Work Sans;
+                        font-size: 1.5rem;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        margin: 1.5rem 0;
+                        cursor: pointer;
+                }
+            }
+        }
+        .create-classroom{
+            padding: 2rem 5rem;
+            background: var(--Background-with-effect, rgba(245, 245, 220, 0.60));
+            backdrop-filter: blur(10px);
+            @media screen and (max-width: 640px){
+                padding: 1rem 0 ;
+                box-shadow: 0 0 0 #ccc;
+                background:fixed;
+            }
+            text-align: center;
+            box-shadow: 0 0 15px #ccc;
+            // opacity: 0.6;
+            h1{
+                color: #333;
+                
+                /* H3 Desktop */
+                font-family: Work Sans;
+                font-size: 2.5rem;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                padding: 1rem;
+            }
+            p{
+                color: #333;
+                text-align: center;
+                
+                /* Mobile H5 */
+                font-family: Work Sans;
+                font-size: 1.5rem;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                padding: 0.5rem;
+            }
+            form{
+                display: grid;
+                grid-template-columns: 1fr;
+                padding: 1.5rem 3rem;                    
+                .form-control{
+                    display: flex;
+                    height: 3rem;
+                    padding: 0.5rem 1.5rem;
+                    margin: 0 0 1.2rem 0;
+                    align-items: center;
+                    gap: 14.5rem;
+                    flex-shrink: 0;
+                    border-radius: 0.5rem;
+                    border: 1.5px solid var(--Text-color, #333);
+                }
+                .form-option{
+                    text-align: center;
+                    .account-exist{
+                        text-align: center;
+                        font-size: 1.5rem;
+                    }
+                    a{
+                        color: #800080;
+                    }
+                }
+                    .btn-signin{
+                        display: flex;
+                        width: 40%;
+                        @media screen and (max-width: 640px){
+                            width: 100%;
+                        }
+                        height: 3rem;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 0.5rem;
+                        flex-shrink: 0;
+                        border-radius: 0.5rem;
+                        border: #800080;
+                        background: var(--Primary-color, #800080);
+                        color: var(--White, #FFF);
+                        font-family: Work Sans;
+                        font-size: 1.5rem;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        margin: 0 0 1rem 0;
+                        cursor: pointer;
+                }
+            }
+        }
+        .create-office{
+            padding: 2rem 5rem;
+            background: var(--Background-with-effect, rgba(245, 245, 220, 0.60));
+            backdrop-filter: blur(10px);
+            @media screen and (max-width: 640px){
+                padding: 1rem 0 ;
+                box-shadow: 0 0 0 #ccc;
+                background:fixed;
+            }
+            text-align: center;
+            box-shadow: 0 0 15px #ccc;
+            h1{
+                color: #333;
+                
+                /* H3 Desktop */
+                font-family: Work Sans;
+                font-size: 2.5rem;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                padding: 0.51rem 0;
+            }
+            .admin-office{
+                color: #333;
+                text-align: center;
+                
+                /* Mobile H5 */
+                font-family: Work Sans;
+                font-size: 1.5rem;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                // padding: 0rem;
+            }
+            form{
+                display: grid;
+                grid-template-columns: 1fr;
+                padding: 1.5rem 3rem;                    
+                .form-control{
+                    display: flex;
+                    height: 3rem;
+                    padding: 0.5rem 1.5rem;
+                    margin: 0 0 1.2rem 0;
+                    align-items: center;
+                    gap: 14.5rem;
+                    flex-shrink: 0;
+                    border-radius: 0.5rem;
+                    border: 1.5px solid var(--Text-color, #333);
+                }
+                .form-option{
+                    text-align: center;
+                    .account-exist{
+                        text-align: center;
+                        font-size: 1.5rem;
+                    }
+                    a{
+                        color: #800080;
+                    }
+                }
+                    .btn-signin{
+                        display: flex;
+                        width: 40%;
+                        @media screen and (max-width: 640px){
+                            width: 100%;
+                        }
+                        height: 3rem;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 0.5rem;
+                        flex-shrink: 0;
+                        border-radius: 0.5rem;
+                        border: #800080;
+                        background: var(--Primary-color, #800080);
+                        color: var(--White, #FFF);
+                        font-family: Work Sans;
+                        font-size: 1.5rem;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        margin: 0 0 1rem 0;
+                        cursor: pointer;
+                }
+            }
+        }
+    }
+}

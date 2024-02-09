@@ -1,0 +1,257 @@
+* {
+  box-shadow: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Work Sans";
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+body .dashboard {
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+body .dashboard .sidebar {
+  background-color: rgb(19, 0, 19);
+  border-top-right-radius: 16px;
+  padding: 1rem;
+}
+body .dashboard .sidebar .logo-name {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  padding-bottom: 1rem;
+}
+body .dashboard .sidebar .logo-name h1 {
+  color: rgb(255, 255, 255);
+  font-family: "Work Sans";
+  margin-top: 2rem;
+}
+body .dashboard .sidebar .logo-name img {
+  height: 80px;
+  width: 80px;
+}
+body .dashboard .sidebar .sidebar-content ul {
+  padding-top: 1rem;
+}
+body .dashboard .sidebar .sidebar-content ul li {
+  margin-top: 2rem;
+  display: flex;
+}
+body .dashboard .sidebar .sidebar-content ul li svg {
+  padding: 0 0.5rem;
+}
+body .dashboard .sidebar .sidebar-content ul li a {
+  text-decoration: none;
+  font-family: "Work Sans";
+  font-size: 24px;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  padding: 0 0.5rem;
+  margin-top: 0.25rem;
+}
+body .dashboard .sidebar .sidebar-content ul li .dash-link {
+  color: rgb(255, 165, 0);
+}
+body .dashboard .sidebar .sidebar-content ul li:hover {
+  border-left: 2px solid rgb(255, 255, 255);
+}
+body .dashboard .sidebar .sidebar-content ul li:active {
+  color: yellow;
+}
+body .dashboard .main-page {
+  background-color: rgb(245, 245, 220);
+  padding: 1rem;
+}
+body .dashboard .main-page .header {
+  display: grid;
+  grid-template-columns: 35% 35% 30%;
+}
+body .dashboard .main-page .header .search-input input {
+  width: 330px;
+  height: 40px;
+  border-radius: 8px;
+  padding: 0px, 0px, 0px, 15px;
+  gap: 20px;
+  font-family: "Work Sans";
+  font-size: 18px;
+}
+body .dashboard .main-page .header .user-name {
+  font-family: "Work Sans";
+  color: rgb(128, 0, 128);
+  justify-content: right;
+  float: right;
+  text-align: right;
+  font-size: 20px;
+  padding-top: 0.5rem;
+  font-weight: 600;
+}
+body .dashboard .main-page .header .alert-icon ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: right;
+}
+body .dashboard .main-page .header .alert-icon ul li {
+  padding: 10px 30px;
+}
+body .dashboard .main-page .login-name p {
+  font-family: Work Sans;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+body .dashboard .main-page .students-statistics {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 1rem 0;
+}
+body .dashboard .main-page .students-statistics .total-students {
+  background: rgb(255, 255, 255);
+  width: 80%;
+  border-radius: 30px;
+  padding: 2rem;
+}
+body .dashboard .main-page .students-statistics .total-students .students-img {
+  display: flex;
+  padding: 2rem 0;
+}
+body .dashboard .main-page .students-statistics .total-students .students-img img {
+  width: 85.46px;
+  height: 83px;
+  top: 302px;
+  z-index: 1;
+}
+body .dashboard .main-page .students-statistics .total-students .students-img .ellipse-two {
+  width: 85.46px;
+  height: 83px;
+  top: 302px;
+}
+body .dashboard .main-page .students-statistics .total-students .total-number {
+  font-family: "Work Sans";
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 75px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-top: 2rem;
+}
+body .dashboard .main-page .students-statistics .statistics {
+  background: rgb(255, 255, 255);
+  border-radius: 30px;
+  padding: 2rem;
+}
+body .dashboard .main-page .students-statistics .statistics .level-chart {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+body .dashboard .main-page .students-statistics .statistics .level-chart .level-statistics div {
+  display: flex;
+  margin: 0.25rem 0;
+}
+body .dashboard .main-page .students-statistics .statistics .level-chart .level-statistics div .final-level {
+  background: rgb(5, 191, 224);
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  margin: 0.6rem 0;
+}
+body .dashboard .main-page .students-statistics .statistics .level-chart .level-statistics div .fourth-level {
+  background: rgb(255, 102, 54);
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  margin: 0.6rem 0;
+}
+body .dashboard .main-page .students-statistics .statistics .level-chart .level-statistics div .third-level {
+  background: rgb(5, 156, 75);
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  margin: 0.6rem 0;
+}
+body .dashboard .main-page .students-statistics .statistics .level-chart .level-statistics div .second-level {
+  background: rgb(255, 165, 0);
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  margin: 0.6rem 0;
+}
+body .dashboard .main-page .students-statistics .statistics .level-chart .level-statistics div .first-level {
+  background: rgb(128, 0, 128);
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  margin: 0.6rem 0;
+}
+body .dashboard .main-page .students-statistics .statistics .level-chart .level-statistics div p {
+  margin: 0.45rem;
+  font-family: "Work Sans";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+body .dashboard .main-page .announcement-history {
+  background: rgb(255, 255, 255);
+  padding: 2rem;
+}
+body .dashboard .main-page .announcement-history h2 {
+  font-family: "Work Sans";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+body .dashboard .main-page .announcement-history .announcement {
+  display: grid;
+  grid-template-columns: 40% 35% 25%;
+}
+body .dashboard .main-page .announcement-history .announcement .message-title {
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 1rem 0;
+}
+body .dashboard .main-page .announcement-history .announcement .date {
+  padding: 1rem 0;
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+body .dashboard .main-page .announcement-history .announcement .see-more {
+  text-align: right;
+  padding: 1rem 0;
+}
+body .dashboard .main-page .announcement-history .announcement .see-more a {
+  text-decoration: none;
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: black;
+  width: Fixed 153px;
+  height: Fixed 30px;
+  border-radius: 8px;
+  border: 1px solid black;
+  gap: 8px;
+  padding: 0.25rem 2rem;
+}
+body .dashboard .main-page .communication-history {
+  background-color: rgb(255, 255, 255);
+  margin: 1rem 0;
+  padding: 2rem;
+}/*# sourceMappingURL=dashboard.css.map */

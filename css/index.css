@@ -1,0 +1,846 @@
+* {
+  box-shadow: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+body .container {
+  padding: 10px 0;
+  background: rgb(245, 245, 220);
+}
+body .container .navbar {
+  display: grid;
+  grid-template-columns: 10% 60% 30%;
+  padding: 1rem;
+  box-shadow: 0px 0px 3px 3px rgb(226, 226, 209);
+  margin: 0 2rem;
+}
+body .container .navbar .nav-logo img {
+  width: 86px;
+  height: 76px;
+  top: 30px;
+  left: 70px;
+  padding: 0.5rem;
+}
+body .container .navbar .page-list ul {
+  list-style-type: none;
+  text-align: center;
+  display: flex;
+  flex-flow: row wrap;
+  font-family: "Work Sans";
+  color: black;
+}
+body .container .navbar .page-list ul li {
+  padding: 2rem 4rem;
+  text-align: center;
+}
+body .container .navbar .page-list ul li a {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  margin-top: 0.5rem;
+}
+body .container .navbar .page-list ul li .home {
+  font-weight: 700;
+}
+body .container .navbar .signing {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 2rem;
+  text-align: right;
+}
+body .container .navbar .signing a {
+  padding: 0 1rem;
+  margin: 0 1rem;
+  list-style-type: none;
+  text-decoration: none;
+  line-height: 2rem;
+  border-radius: 8px;
+}
+body .container .navbar .signing .sign-in {
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  color: black;
+  border: 1px solid black;
+}
+body .container .navbar .signing .sign-up {
+  background-color: rgb(128, 0, 128);
+  text-align: center;
+  color: white;
+}
+body .container .digifile {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  padding: 3rem;
+}
+body .container .digifile .seamless-title h1 {
+  font-family: "Work Sans";
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 66px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 1.5rem;
+}
+body .container .digifile .seamless-title p {
+  font-family: "Work Sans";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 2rem;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 1rem 0 2rem 0;
+}
+body .container .digifile .seamless-title a {
+  text-decoration: none;
+  cursor: pointer;
+  font-family: "Work Sans";
+}
+body .container .digifile .seamless-title a button {
+  font-family: "Work Sans";
+  background-color: rgb(128, 0, 128);
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 0em;
+  padding: 0.5rem;
+  width: 45%;
+  border: rgb(128, 0, 128);
+  color: white;
+  cursor: pointer;
+  border-radius: 8px;
+}
+body .container .digifile .seamless-icon {
+  background: linear-gradient(180deg, #800080 0%, #FFA500 100%);
+  border-radius: 50%;
+  width: 467px;
+  height: 462px;
+}
+body .container .digifile .seamless-icon .file-icon {
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+body .container .digifile .seamless-icon .file-icon .filecon {
+  padding: 1rem;
+  height: 134px;
+  width: 134px;
+  margin-top: 2rem;
+}
+body .container .digifile .seamless-icon .file-icon .hr-line {
+  margin-top: 7rem;
+  text-align: center;
+  padding: 0 0 0 1rem;
+}
+body .container .management {
+  display: flex;
+  flex-direction: row wrap;
+  padding: 2rem;
+  margin: 1rem;
+  background: rgb(255, 255, 255);
+}
+body .container .management .manage-illustration {
+  padding: 0 1rem 0 0;
+}
+body .container .management .manage-illustration img {
+  width: 626px;
+  height: 418px;
+  top: 94px;
+  left: 77px;
+  border-radius: 20px;
+}
+body .container .management .management-documents {
+  padding: 0 0 0 1rem;
+}
+body .container .management .management-documents h1 {
+  font-family: "Work Sans";
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 66px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+body .container .management .management-documents p {
+  font-family: "Work Sans";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 2rem;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 1rem 0 2rem 0;
+}
+body .container .management .management-documents a {
+  text-decoration: none;
+  cursor: pointer;
+  font-family: "Work Sans";
+}
+body .container .management .management-documents a button {
+  font-family: "Work Sans";
+  background-color: rgb(255, 255, 255);
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 0em;
+  padding: 0.5rem;
+  width: 45%;
+  border: rgb(128, 0, 128);
+  color: rgb(51, 51, 51);
+  cursor: pointer;
+  border-radius: 8px;
+  border: 1px solid rgb(51, 51, 51);
+}
+body .container .assignment-module {
+  display: flex;
+  flex-direction: row wrap;
+  padding: 2rem;
+  margin: 1rem;
+  background: rgb(255, 255, 255);
+}
+body .container .assignment-module .module-management h1 {
+  font-family: "Work Sans";
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+body .container .assignment-module .module-management p {
+  font-family: "Work Sans";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 2rem;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 1rem 0 2rem 0;
+}
+body .container .assignment-module .module-management a {
+  text-decoration: none;
+  cursor: pointer;
+  font-family: "Work Sans";
+}
+body .container .assignment-module .module-management a button {
+  font-family: "Work Sans";
+  background-color: rgb(255, 255, 255);
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 0em;
+  padding: 0.5rem;
+  width: 45%;
+  border: rgb(128, 0, 128);
+  color: rgb(51, 51, 51);
+  cursor: pointer;
+  border-radius: 8px;
+  border: 1px solid rgb(51, 51, 51);
+}
+body .container .assignment-module .module-illustration {
+  padding: 0 0 0 1rem;
+}
+body .container .assignment-module .module-illustration img {
+  width: 626px;
+  height: 418px;
+  top: 94px;
+  left: 77px;
+  border-radius: 20px;
+}
+body .container .secure-data {
+  padding: 2rem;
+  margin: 1rem 1rem 0 1rem;
+  background: rgb(255, 255, 255);
+}
+body .container .secure-data .data-handling {
+  display: grid;
+  justify-items: center;
+  text-align: center;
+}
+body .container .secure-data .data-handling h1 {
+  font-family: "Work Sans";
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 66px;
+  letter-spacing: 0em;
+}
+body .container .secure-data .data-handling p {
+  font-family: "Work Sans";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 2rem;
+  letter-spacing: 0em;
+  text-align: center;
+}
+body .container .secure-data .data-handling a {
+  text-decoration: none;
+  cursor: pointer;
+  font-family: "Work Sans";
+}
+body .container .secure-data .data-handling a button {
+  font-family: "Work Sans";
+  background-color: rgb(255, 255, 255);
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 0em;
+  padding: 0.5rem;
+  margin: 1rem;
+  width: 100%;
+  border: rgb(128, 0, 128);
+  color: rgb(51, 51, 51);
+  cursor: pointer;
+  border-radius: 8px;
+  border: 1px solid rgb(51, 51, 51);
+}
+body .container .secure-data .data-handling img {
+  text-align: center;
+}
+body .container .dgfile {
+  border: 2px solid rgba(51, 51, 51, 0.5);
+  display: grid;
+  grid-template-columns: 1fr;
+  border-radius: 18px;
+  margin: 2rem 8rem;
+  padding: 1rem;
+}
+body .container .dgfile .what-digifile {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-bottom: 2px solid rgba(51, 51, 51, 0.5);
+  padding: 1rem;
+  margin: 0;
+}
+body .container .dgfile .what-digifile h1 {
+  justify-content: left;
+  text-align: left;
+}
+body .container .dgfile .what-digifile svg {
+  text-align: right;
+  float: right;
+  align-content: right;
+}
+body .container .dgfile p {
+  font-family: "Work Sans";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 2rem;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 1rem 0 0 0;
+  text-align: justified;
+}
+body .container .frequent-questions .faq-title {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 66px;
+  letter-spacing: 0em;
+  text-align: center;
+  font-family: "Work Sans";
+}
+body .container .frequent-questions .faq {
+  border: 2px solid rgba(51, 51, 51, 0.5);
+  border-radius: 8px;
+  margin: 2rem 8rem;
+  padding: 0;
+}
+body .container .frequent-questions .faq .faq-questions {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  padding: 1rem 2rem;
+  margin: 0;
+}
+body .container .frequent-questions .faq .faq-questions h1 {
+  justify-content: left;
+  text-align: left;
+  cursor: pointer;
+}
+body .container .frequent-questions .faq .faq-questions svg {
+  text-align: right;
+  float: right;
+  align-content: right;
+  cursor: pointer;
+}
+body .container .frequent-questions .faq .faq-answer {
+  display: none;
+}
+body .container .frequent-questions .faq .faq-answer.show {
+  display: block;
+  font-family: "Work Sans";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 2rem;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 1rem;
+  text-align: justified;
+  border-top: 1px solid rgb(51, 51, 51);
+}
+body .container .frequent-questions .faq .answer {
+  display: none;
+  margin-top: 10px;
+}
+body .container .frequent-questions .faq .answer.show {
+  display: block;
+  font-family: "Work Sans";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 2rem;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 1rem;
+  text-align: justified;
+}
+body footer {
+  background: rgb(19, 0, 19);
+  color: rgb(255, 255, 255);
+}
+body footer .dg-footer {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  padding: 2rem 3rem 1rem;
+}
+body footer .dg-footer .dgsocial-media .media-contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: "Work Sans";
+  font-size: 24px;
+  padding: 1rem 0;
+  border-bottom: 1px solid white;
+}
+body footer .dg-footer .dgsocial-media .media-contact .media-follower {
+  display: flex;
+}
+body footer .dg-footer .dgsocial-media .media-contact .contact-us {
+  text-align: right;
+  display: flex;
+  float: right;
+  justify-content: right;
+}
+body footer .dg-footer .dgsocial-media .media-contact .contact-us p {
+  padding: 0 0.5rem;
+}
+body footer .dg-footer .dgsocial-media .copyright {
+  display: flex;
+  padding: 1rem 0;
+  font-family: "Work Sans";
+  font-size: 24px;
+}
+body footer .dg-footer .dgsocial-media .copyright p {
+  padding: 0 0.5rem;
+}
+@media screen and (max-width: 640px) {
+  body {
+    padding: 0;
+    margin: 0;
+  }
+  body .container {
+    padding: 10px 0;
+    background: rgb(245, 245, 220);
+  }
+  body .container .navbar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0.51rem;
+    box-shadow: 0px 0px 3px 3px rgb(226, 226, 209);
+    margin: 0 1rem;
+  }
+  body .container .navbar .nav-logo img {
+    width: 86px;
+    height: 76px;
+    padding: 0;
+    margin: 0;
+  }
+  body .container .navbar .page-list {
+    display: none;
+  }
+  body .container .navbar .signing {
+    display: none;
+    grid-template-columns: 1fr 1fr;
+    padding: 2rem;
+    text-align: right;
+  }
+  body .container .navbar .signing a {
+    padding: 0 1rem;
+    margin: 0 1rem;
+    list-style-type: none;
+    text-decoration: none;
+    line-height: 2rem;
+    border-radius: 8px;
+  }
+  body .container .navbar .signing .sign-in {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    color: black;
+    border: 1px solid black;
+  }
+  body .container .navbar .signing .sign-up {
+    background-color: rgb(128, 0, 128);
+    text-align: center;
+    color: white;
+  }
+  body .container .digifile {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1rem;
+  }
+  body .container .digifile .seamless-title h1 {
+    font-family: "Work Sans";
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 66px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 0;
+  }
+  body .container .digifile .seamless-title p {
+    font-family: "Work Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 2rem;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 0 0 1rem 0;
+  }
+  body .container .digifile .seamless-title a {
+    text-decoration: none;
+    cursor: pointer;
+    font-family: "Work Sans";
+  }
+  body .container .digifile .seamless-title a button {
+    font-family: "Work Sans";
+    background-color: rgb(128, 0, 128);
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    padding: 0.5rem;
+    width: 45%;
+    border: rgb(128, 0, 128);
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  body .container .digifile .seamless-icon {
+    background: linear-gradient(180deg, #800080 0%, #FFA500 100%);
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    margin: 1rem 0;
+  }
+  body .container .digifile .seamless-icon .file-icon {
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  body .container .digifile .seamless-icon .file-icon .filecon {
+    padding: 0;
+    height: 60%;
+    width: 100%;
+    margin-top: 2rem;
+  }
+  body .container .digifile .seamless-icon .file-icon .hr-line {
+    margin-top: 4rem;
+    text-align: center;
+    padding: 0 0 0 1rem;
+  }
+  body .container .management {
+    display: grid;
+    flex-direction: column wrap;
+    padding: 1rem;
+    margin: 1rem;
+    background: rgb(255, 255, 255);
+  }
+  body .container .management .manage-illustration {
+    padding: 0;
+  }
+  body .container .management .manage-illustration img {
+    width: 100%;
+    height: 100%;
+    top: 94px;
+    left: 77px;
+    border-radius: 10px;
+  }
+  body .container .management .management-documents {
+    padding: 0;
+  }
+  body .container .management .management-documents h1 {
+    font-family: "Work Sans";
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  body .container .management .management-documents p {
+    font-family: "Work Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 0 0 1rem 0;
+  }
+  body .container .management .management-documents a {
+    text-decoration: none;
+    cursor: pointer;
+    font-family: "Work Sans";
+  }
+  body .container .management .management-documents a button {
+    font-family: "Work Sans";
+    background-color: rgb(255, 255, 255);
+    font-size: 18px;
+    letter-spacing: 0em;
+    padding: 0.5rem;
+    width: 50%;
+    border: rgb(128, 0, 128);
+    color: rgb(51, 51, 51);
+    cursor: pointer;
+    border-radius: 6px;
+    border: 1px solid rgb(51, 51, 51);
+  }
+  body .container .assignment-module {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1rem;
+    margin: 1rem;
+    background: rgb(255, 255, 255);
+  }
+  body .container .assignment-module .module-management h1 {
+    font-family: "Work Sans";
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  body .container .assignment-module .module-management p {
+    font-family: "Work Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 2rem;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 0;
+  }
+  body .container .assignment-module .module-management a {
+    text-decoration: none;
+    cursor: pointer;
+    font-family: "Work Sans";
+  }
+  body .container .assignment-module .module-management a button {
+    font-family: "Work Sans";
+    background-color: rgb(255, 255, 255);
+    font-size: 18px;
+    letter-spacing: 0em;
+    padding: 0.5rem;
+    width: 50%;
+    border: rgb(128, 0, 128);
+    color: rgb(51, 51, 51);
+    cursor: pointer;
+    border-radius: 6px;
+    border: 1px solid rgb(51, 51, 51);
+  }
+  body .container .assignment-module .module-illustration {
+    padding: 1rem 0;
+  }
+  body .container .assignment-module .module-illustration img {
+    width: 100%;
+    height: 100%;
+    top: 94px;
+    left: 77px;
+    border-radius: 10px;
+  }
+  body .container .secure-data {
+    padding: 2rem;
+    margin: 1rem 1rem 0 1rem;
+    background: rgb(255, 255, 255);
+  }
+  body .container .secure-data .data-handling {
+    display: grid;
+    justify-items: center;
+    text-align: center;
+  }
+  body .container .secure-data .data-handling h1 {
+    font-family: "Work Sans";
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 66px;
+    letter-spacing: 0em;
+  }
+  body .container .secure-data .data-handling p {
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 2rem;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  body .container .secure-data .data-handling a {
+    text-decoration: none;
+    cursor: pointer;
+    font-family: "Work Sans";
+  }
+  body .container .secure-data .data-handling a button {
+    font-family: "Work Sans";
+    background-color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    padding: 0.5rem;
+    margin: 1rem;
+    width: 100%;
+    border: rgb(128, 0, 128);
+    color: rgb(51, 51, 51);
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid rgb(51, 51, 51);
+  }
+  body .container .secure-data .data-handling img {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+  }
+  body .container .dgfile {
+    border: 2px solid rgba(51, 51, 51, 0.5);
+    display: grid;
+    grid-template-columns: 1fr;
+    border-radius: 18px;
+    margin: 1rem;
+    padding: 1rem;
+  }
+  body .container .dgfile .what-digifile {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    border-bottom: 1px solid rgba(51, 51, 51, 0.5);
+    padding: 1rem;
+    margin: 0;
+  }
+  body .container .dgfile .what-digifile h1 {
+    justify-content: left;
+    text-align: left;
+    font-size: 24px;
+  }
+  body .container .dgfile .what-digifile svg {
+    text-align: right;
+    float: right;
+    align-content: right;
+    height: 24px;
+    width: 24px;
+  }
+  body .container .dgfile p {
+    font-family: "Work Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 2rem;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 0.5rem 0 0 0;
+    text-align: justified;
+  }
+  body .container .frequent-questions .faq-title {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    font-family: "Work Sans";
+  }
+  body .container .frequent-questions .faq {
+    border: 1px solid rgba(51, 51, 51, 0.5);
+    border-radius: 8px;
+    margin: 1rem;
+    padding: 0;
+  }
+  body .container .frequent-questions .faq .faq-questions {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    padding: 1rem;
+    margin: 0;
+  }
+  body .container .frequent-questions .faq .faq-questions h1 {
+    justify-content: left;
+    text-align: left;
+    cursor: pointer;
+    font-size: 22px;
+  }
+  body .container .frequent-questions .faq .faq-questions svg {
+    text-align: right;
+    float: right;
+    align-content: right;
+    cursor: pointer;
+    height: 24px;
+    width: 24px;
+  }
+  body .container .frequent-questions .faq .faq-answer {
+    display: none;
+  }
+  body .container .frequent-questions .faq .faq-answer.show {
+    display: block;
+    font-family: "Work Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 1rem;
+    text-align: justified;
+    border-top: 1px solid rgb(51, 51, 51);
+  }
+  body .container .frequent-questions .faq .answer {
+    display: none;
+    margin-top: 10px;
+  }
+  body .container .frequent-questions .faq .answer.show {
+    display: block;
+    font-family: "Work Sans";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 2rem;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 1rem;
+    text-align: justified;
+  }
+}
+body footer {
+  background: rgb(19, 0, 19);
+  color: rgb(255, 255, 255);
+}
+body footer .dg-footer {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  padding: 1rem;
+}
+body footer .dg-footer .digifile-footer-logo img {
+  height: 5rem;
+  width: 5rem;
+  margin-top: 1.5rem;
+}
+body footer .dg-footer .dgsocial-media .media-contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: "Work Sans";
+  font-size: 18px;
+  padding: 1rem 0;
+  border-bottom: 1px solid white;
+}
+body footer .dg-footer .dgsocial-media .media-contact .media-follower {
+  display: flex;
+}
+body footer .dg-footer .dgsocial-media .media-contact .contact-us {
+  text-align: right;
+  display: flex;
+  float: right;
+  justify-content: right;
+}
+body footer .dg-footer .dgsocial-media .media-contact .contact-us p {
+  padding: 0 0.2rem;
+}
+body footer .dg-footer .dgsocial-media .copyright {
+  display: flex;
+  padding: 1rem 0;
+  font-family: "Work Sans";
+  font-size: 18px;
+  text-align: center;
+}
+body footer .dg-footer .dgsocial-media .copyright p {
+  padding: 0;
+  font-size: 20px;
+}/*# sourceMappingURL=index.css.map */
